@@ -12,9 +12,15 @@
     <div id="bot-board" class="board"></div>
     <div id="player-board" class="board"></div>
   </div>
+  
   <div id="controls">
-    <button id="start-game">Почати гру</button>
-  </div>
+  <label><input type="radio" name="placement-mode" value="auto" checked /> Автоматичне розміщення</label>
+  <label><input type="radio" name="placement-mode" value="manual" /> Ручне розміщення</label>
+  <button id="rotate-ship">Повернути корабель (Горизонталь/Вертикаль)</button>
+  <button id="start-game">Почати гру</button>
+</div>
+
+  
   <div id="stats">
     <p>Виграші: <span id="wins">0</span></p>
     <p>Поразки: <span id="losses">0</span></p>
