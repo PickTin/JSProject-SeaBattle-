@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Морський бій</title>
+  <link rel="stylesheet" href="CSS/styles.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div id="game-container">
+    <div id="bot-board" class="board"></div>
+    <div id="player-board" class="board"></div>
+  </div>
+  <div id="controls">
+    <button id="start-game">Почати гру</button>
+  </div>
+  <div id="stats">
+    <p>Виграші: <span id="wins">0</span></p>
+    <p>Поразки: <span id="losses">0</span></p>
+  </div>
+
+  <script src="src/data.js"></script>
+  <script src="src/ui.js"></script>
+  <script src="src/ai.js"></script>
+  <script src="src/game.js"></script>
+</body>
+</html>
