@@ -1,7 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+
   background-color: #001f3f;
   color: white;
   display: flex;
@@ -23,14 +24,14 @@ body {
   grid-template-rows: repeat(10, 30px);
   gap: 2px;
   background-color: #0074D9;
-  border: 3px solid #7FDBFF;
+  border: 3px solid #d9dcdd;
   padding: 5px;
 }
 
 .cell {
   width: 30px;
   height: 30px;
-  background-color: #39CCCC; 
+  background-color: #d6dada; 
   cursor: pointer;
   box-sizing: border-box;
   display: flex;
@@ -74,4 +75,20 @@ body {
 
 #stats {
   font-size: 18px;
+}
+#lbl{
+  
+  margin-left: 370px;
+  margin-bottom: -35px;
+}
+#lbl2{
+  margin-right: 350px;
+    margin-bottom: 20px;
+
+}
+
+.font
+{
+    font-family: 'Courier New', Courier, monospace;
+
 }

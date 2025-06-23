@@ -8,16 +8,21 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+  <div class="logo"><img src="IMAGES/1.png" alt="" width="460px"></div>
+  <p id="lbl">Поле супротивника</p>
+  <p id="lbl2">Поле гравця</p>
   <div id="game-container">
+   
     <div id="bot-board" class="board"></div>
+
     <div id="player-board" class="board"></div>
   </div>
   
   <div id="controls">
   <label><input type="radio" name="placement-mode" value="auto" checked /> Автоматичне розміщення</label>
   <label><input type="radio" name="placement-mode" value="manual" /> Ручне розміщення</label>
-  <button id="rotate-ship">Повернути корабель (Горизонталь/Вертикаль)</button>
-  <button id="start-game">Почати гру</button>
+  <button id="rotate-ship" class="font">Повернути корабель (Горизонталь/Вертикаль)</button>
+  <button id="start-game" class="font">Почати гру</button>
 </div>
 
   
